@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Space Invaders</h1>
+    <h2 id="score-display">0</h2>
+    <div class="game-container">
+      <canvas id="game-canvas"></canvas>
+      <div class="instructions-box">
+        <h3>How to Play</h3>
+        <ul>
+          <li>**Left Arrow (←)**: Move left</li>
+          <li>**Right Arrow (→)**: Move right</li>
+          <li>**Spacebar**: Fire bullet</li>
+        </ul>
+        <p class="instructions-text">
+          Shoot all the invaders before they reach the bottom of the screen!
+        </p>
+      </div>
+    </div>
+    <div class="game-end-message" style="display: none">
+      <h2 id="message-text"></h2>
+      <button id="play-again-btn">Play Again</button>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
