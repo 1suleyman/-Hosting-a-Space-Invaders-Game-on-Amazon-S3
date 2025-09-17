@@ -2,6 +2,8 @@
 
 I decided to host my **Space Invaders game** on Amazon S3 to make it publicly playable. This project walked me through **creating an S3 bucket**, **uploading my game files**, and **configuring static website hosting**. By the end, anyone can play my game via a public URL! 🪣🎮
 
+<img width="1944" height="908" alt="image" src="https://github.com/user-attachments/assets/39f8ce02-c8ff-49e6-9a59-ed33d7fad65f" />
+
 ---
 
 ## 📋 Project Steps
